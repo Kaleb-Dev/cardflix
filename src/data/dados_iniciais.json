@@ -10,32 +10,32 @@
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "O Misterioso Quarto Branco - Minecraft Em busca da casa automática #285",
+          "url": "https://www.youtube.com/watch?v=pyRy78dFGkE"
         },
         {
           "titulo": "FAZENDA de CARNE de PORCO (2020) !! - Forever Mapa 3 #130",
           "url": "https://www.youtube.com/watch?v=4kj8Fcj8hSY"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "O Novo Esconderijo do Batman - Minecraft Tutorial 58.",
+          "url": "https://www.youtube.com/watch?v=OthoPpqhe18"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Esconderijo com jukebox - Minecraft Tutorial 56",
+          "url": "https://www.youtube.com/watch?v=GCqnIuMr_1U"
         },
         {
           "titulo": "FARM de SLIME COLOSSAL! - Forever Mapa 3 #84",
           "url": "https://www.youtube.com/watch?v=vZOzlXL05qE"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Organizador Múltiplo de Itens! Tutorial | Minecraft 1.16+",
+          "url": "https://www.youtube.com/watch?v=GiOVjLbFdsY"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Curso de Redstone: Extensores duplos | ★★ | +Uma",
+          "url": "https://www.youtube.com/watch?v=QYPgjtiExb4"
         },
         {
           "titulo": "FARM de BAMBU COLOSSAL! - Forever Mapa 3 #96",
@@ -56,21 +56,29 @@
           "url": "https://www.youtube.com/watch?v=eO4afpcz00o"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "COMEÇAMOS o NETHER HUB! - Craft Games 231",
+          "url": "https://www.youtube.com/watch?v=xUJQ39ApPe8"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "A SALA SECRETA dos VILLAGERS! - Craft Games 232",
+          "url": "https://www.youtube.com/watch?v=8Rf6xj_mBLw"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "O VULCÃO, humanamente impossível! - Forever Mapa 3 #103",
+          "url": "https://www.youtube.com/watch?v=l8wSwYknsPw"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "CONSTRUÍ um CASTELO DE DIAMANTES (SURVIVAL) - Forever Mapa 3 #101",
+          "url": "https://www.youtube.com/watch?v=_2ZalekwolE"
         }
+		{
+		 "título": "CONSTRUÍ UM CASTELINHO DE AREIA NO MINECRAFT!! - Minecraft Irmandade #17"
+		 "url": "https://www.youtube.com/watch?v=FochJzTW1JI"
+		}
+		{
+		 "título": "CONSTRUÍ A MAIOR PIRÂMIDE DO MINECRAFT!! RECORDE MUNDIAL?! - Minecraft Irmandade #36"
+		 "url": "https://www.youtube.com/watch?v=YpPOJlNPJOA"
+		}
       ]
     },
     {

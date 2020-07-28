@@ -12,7 +12,7 @@ function App() {
         <BannerMain 
           videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
           url={dadosIniciais.categorias[0].videos[0].url}
-          videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript parte da rotina das desenvolvedoras e desnvovlvedores. Mas o que els fazem afinal? Descubra com a Vanessa!"}
+          videoDescription={"O Mistério mais mistérioso do Minecraft! O experimento do QUARTO BRANCO, também conchecido como a sala da loucura..."}
         />
 
         <Carousel
