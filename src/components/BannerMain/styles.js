@@ -46,6 +46,8 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   @media (max-width: 800px) {
     display: none;
   }
@@ -85,7 +87,7 @@ export const BannerMainContainer = styled.section`
     left: 0;
     right: 0;
     margin: auto;
-    height: 20%;
+    height: 50%;
   }
 
   &:before {
@@ -119,7 +121,15 @@ export const WatchButton = styled.button`
   transition: opacity .3s;
   display: none;
   margin: 0 auto;
+  transition: .2s;
   @media (max-width: 800px) {
     display: block;
+  }
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    color: var(--white);
+    background: var(--black);
+    border-color: var(--white);
   }
 `;

@@ -1,14 +1,15 @@
 import styled from "styled-components"
 
 const Button = styled.button `
+    font-family: 'Roboto' sans-serif;
     color: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
     cursor: pointer;
-    padding: 16px 24px;
+    padding: 16px 32px;
     font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: normal;
+    font-size: 25px;
     outline: none;
     border-radius: 5px;
     text-decoration: none;

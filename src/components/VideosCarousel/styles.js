@@ -8,9 +8,8 @@ export const Title = styled.h3`
   margin-bottom: 16px;
   display: inline-block;
   padding: 20px;
-  background: red;
+  background: black;
   line-height: 1;
-  border-radius: 4px;
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -21,7 +20,7 @@ export const Title = styled.h3`
 export const ExtraLink = styled.a`
   margin-left: 16px;
   text-decoration: none;
-  transition: opacity .3s;
+  transition: .3s;
   &:hover,
   &:focus {
     opacity: .5;
