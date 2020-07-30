@@ -12,31 +12,25 @@ function Home() {
         <BannerMain 
           videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
           url={dadosIniciais.categorias[0].videos[0].url}
-          videoDescription={"O Mistério mais mistérioso do Minecraft! O experimento do QUARTO BRANCO, também conchecido como a sala da loucura..."}
+          videoDescription={"Sejam bem-vindos, à RedstoneLand episódio 02!!! Nesse vídeo eu tento explorar o *NOVO NETHER* da 1.16, a versão mais recente do MINECRAFT, mas ocorre alguns imprevistos... Se vc gostou do vídeo deixa o like pra ganhar uma redstone de presente 😉"}
         />
 
         <Carousel
-          ignoreFirstVideo
           category={dadosIniciais.categorias[0]}
         /> 
                 <Carousel
-          ignoreFirstVideo
           category={dadosIniciais.categorias[1]}
         /> 
                 <Carousel
-          ignoreFirstVideo
           category={dadosIniciais.categorias[2]}
         /> 
                 <Carousel
-          ignoreFirstVideo
           category={dadosIniciais.categorias[3]}
         /> 
                 <Carousel
-          ignoreFirstVideo
           category={dadosIniciais.categorias[4]}
         /> 
                 <Carousel
-          ignoreFirstVideo
           category={dadosIniciais.categorias[5]}
         /> 
     </div>

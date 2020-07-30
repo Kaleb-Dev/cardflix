@@ -1,54 +1,97 @@
 {
   "categorias": [
     {
+      "titulo": "RedstoneLand",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Confira a playlist completa",
+        "url": "https://www.youtube.com/watch?v=0g08yy5bzls&list=PLlzf5Fa0Q7kKu6xHngh1YxpmgbedzD2cJ"
+      },
+      "videos": [
+        {
+          "titulo": "✔ NOVA SÉRIE SURVIVAL NA 1.16, mas a cada episódio eu tenho que fazer uma farm... - RedstoneLand #01",
+          "url": "https://www.youtube.com/watch?v=0g08yy5bzls"
+        },
+        {
+          "titulo": "👉 TENTANDO EXPLORAR O *NOVO NETHER* 1.16!!! - RedstoneLand #02 (parte1)",
+          "url": "https://www.youtube.com/watch?v=1OJoRmYIJy4"
+        }
+      ]
+    },
+    {
       "titulo": "Redstone",
       "link": "#",
       "cor": "#e31b1b",
       "link_extra": {
-        "text": "Farms, sistemas e loucaras com Redstone",
-        "url": "#"
+        "text": "Playlist completa de tutoriais!",
+        "url": "https://www.youtube.com/watch?v=6IvIhO1MqEg&list=PLlzf5Fa0Q7kKXX8bYkN7NGmrORWNPguH4"
       },
       "videos": [
         {
-          "titulo": "O Misterioso Quarto Branco - Minecraft Em busca da casa automática #285",
-          "url": "https://www.youtube.com/watch?v=pyRy78dFGkE"
+          "titulo": "FARM DE FUNGOS DO NETHER NA 1.16!!! (100% AUTOMÁTICA) - TUTORIAL #28",
+          "url": "https://www.youtube.com/watch?v=_gUgBIIpurM"
         },
         {
-          "titulo": "FAZENDA de CARNE de PORCO (2020) !! - Forever Mapa 3 #130",
-          "url": "https://www.youtube.com/watch?v=4kj8Fcj8hSY"
+          "titulo": "COMO FAZER FARM DE FERRO SIMPLES E EFICIENTE NO MINECRAFT!!! - Minecraft Tutoriais #26",
+          "url": "https://www.youtube.com/watch?v=3QFh8c4q4XY"
         },
         {
-          "titulo": "O Novo Esconderijo do Batman - Minecraft Tutorial 58.",
-          "url": "https://www.youtube.com/watch?v=OthoPpqhe18"
+          "titulo": "TELEPORTANDO PELO NETHER (FAÇA SEU NETHER HUB)!!! - TUTORIAL #25",
+          "url": "https://www.youtube.com/watch?v=wVSHriy2XZE"
         },
         {
-          "titulo": "Esconderijo com jukebox - Minecraft Tutorial 56",
-          "url": "https://www.youtube.com/watch?v=GCqnIuMr_1U"
+          "titulo": "FARM DE CANA SIMPLES E MUITO EFICIENTE (1* pack em 3 MINUTOS!!!) - 1.15 (PC) - TUTORIAL #24",
+          "url": "https://www.youtube.com/watch?v=YuOrkr6VoYk"
         },
         {
-          "titulo": "FARM de SLIME COLOSSAL! - Forever Mapa 3 #84",
-          "url": "https://www.youtube.com/watch?v=vZOzlXL05qE"
+          "titulo": "FARM DE OURO USANDO OVO DE TARTATUGA (1.15) - TUTORIAL #20",
+          "url": "https://www.youtube.com/watch?v=RCvVhpJikbA"
         },
         {
-          "titulo": "Organizador Múltiplo de Itens! Tutorial | Minecraft 1.16+",
-          "url": "https://www.youtube.com/watch?v=GiOVjLbFdsY"
+          "titulo": "COMO FAZER UM CANHÃO DE TNT NO MINECRAFT? - TUTORIAL#14",
+          "url": "https://www.youtube.com/watch?v=YdZnReSCKcg"
         },
         {
-          "titulo": "Curso de Redstone: Extensores duplos | ★★ | +Uma",
-          "url": "https://www.youtube.com/watch?v=QYPgjtiExb4"
+          "titulo": "COMO FAZER UM TROCADOR DE ARMADURAS AUTOMÁTICO NO MINECRAFT 1.15 - (PC - MCPE) - TUTORIAL #7",
+          "url": "https://www.youtube.com/watch?v=BrPVLlE9XXI"
         },
         {
-          "titulo": "FARM de BAMBU COLOSSAL! - Forever Mapa 3 #96",
-          "url": "https://www.youtube.com/watch?v=BwbvyYqqHZY"
+          "titulo": "COMO FAZER UMA MEGA-FARM DE CACTO (1.15) - TUTORIAL #21",
+          "url": "https://www.youtube.com/watch?v=6Ye1XlC6WE0"
         }        
       ]
     },
+	{
+      "titulo": "Minecraft Dimensões",
+      "cor": "orange",
+	  "link_extra": {
+        "text": "Confira a playlist completa, aqui!",
+        "url": "https://www.youtube.com/watch?v=k5k7Tk0hbR4&list=PLlzf5Fa0Q7kL42p0JhUeJFU0-IdkdcDZE"
+      },
+      "videos": [
+        {
+          "titulo": "NOVA SÉRIE SURVIVAL COM AS NOVAS DIMENSÕES DO MINECRAFT!!! - Minecraft Dimensões #1",
+          "url": "https://www.youtube.com/watch?v=k5k7Tk0hbR4"
+        },
+        {
+          "titulo": "DIAMANTES E PRIMEIRO PORTAL DO NETHER!!! - Minecraft Dimensões #2",
+          "url": "https://www.youtube.com/watch?v=ev-oadhC6g4"
+        },
+        {
+          "titulo": "ENCONTREI O VILLAGER SECRETO DO 1.16 E AS 666 MORTES!!! - Minecraft Dimensões #03",
+          "url": "https://www.youtube.com/watch?v=zea-on5IrJY"
+        },
+        {
+          "titulo": "EXPLORAMOS AS DIMENSÕES INFINITAS DO MINECRAFT!!! - Minecraft Dimensões #04",
+          "url": "https://www.youtube.com/watch?v=VXr1HYPuNCA"
+        }
+      ]
+    },
     {
-      "titulo": "Construção",
+      "titulo": "Construções da Comunidade",
       "cor": "#54e31b",
       "link_extra": {
-        "text": "Contruções loucas feitas no Minecraft!",
-        "url": "#"
+        "text": "Contruções loucas feitas no Minecraft!"
       },
       "videos": [
         {
@@ -78,114 +121,66 @@
         {
         "título": "CONSTRUÍ A MAIOR PIRÂMIDE DO MINECRAFT!! RECORDE MUNDIAL?! - Minecraft Irmandade #36",
         "url": "https://www.youtube.com/watch?v=YpPOJlNPJOA"
+        },
+        {
+          "título": "Minecraft 1.16 construindo castelo de hogwarts !!!!",
+          "url": "https://www.youtube.com/watch?v=AjWJO2-KZQo"
         }
       ]
     },
     {
-      "titulo": "#humanamenteimpossível",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
-      "videos": [
-        {
-          "titulo": "JOGUEI 100 MIL AREIAS NO TEMPLO DE GUARDIAN! SECOU? - Forever Mapa 3 #57",
-          "url": "https://www.youtube.com/watch?v=YrC_qYuKeP4"
-        },
-        {
-          "titulo": "Quebrando um CONTINENTE INTEIRO do Minecraft!! - Forever Mapa 3 #47",
-          "url": "https://www.youtube.com/watch?v=vAaieJw4lHA"
-        },
-        {
-          "titulo": "FIZ um CERCADO com 5 MIL VACAS (QUEBREI OS RECORDS)!! - Forever Mapa 3 #49",
-          "url": "https://www.youtube.com/watch?v=JoBY4J7e6yU"
-        },
-        {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        }
-      ]
-    },
-    {
-      "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-        },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
+      "titulo": "Séries",
       "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Casa Automática",
+          "url": "https://www.youtube.com/watch?v=aWzKb071D9o&list=PLD40851E0E52E9080"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Craft Games",
+          "url": "https://www.youtube.com/watch?v=8Rf6xj_mBLw&list=PLCp7embZy6ugEc41yQ-Ju858S23pQ4T-w"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Forever Mapa 3",
+          "url": "https://www.youtube.com/watch?v=UIe17yLgAFU&list=PLX__f0eSr4yDxq5aOCHGKLayZWoMTCaUc"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Minecraft Irmandade",
+          "url": "https://www.youtube.com/watch?v=5l2GigZsbEo&list=PLrwmrR7fNivWeCMP1PjPCIBc15Qu7Iprv"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "GGWorld",
+          "url": "https://www.youtube.com/watch?v=1IiD2ZBe7LA&list=PLMQSlrGagX_VGomGSAN78atG8ahh3nqVA"
+        },
+        {
+          "titulo": "RedstoneLand",
+          "url": "https://www.youtube.com/watch?v=0g08yy5bzls&list=PLlzf5Fa0Q7kKu6xHngh1YxpmgbedzD2cJ"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Minecraft Dungeons",
       "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "MINECRAFT DUNGEONS - O Início de Gameplay, Dublado e Legendado em Português PT-BR!",
+          "url": "https://www.youtube.com/watch?v=Pky7r25W9uk"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "MINECRAFT DUNGEONS! - A Caverna de Minas (Minas Gerais?!)",
+          "url": "https://www.youtube.com/watch?v=fVvR1aEoqMo"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Jogando MINECRAFT DUNGEONS com FOREVER e DAVI.",
+          "url": "https://www.youtube.com/watch?v=oUNdXNi-BGw"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "EM BUSCA DO CALABOUÇO AUTOMÁTICO??!! [Viniccius13 e Matthz]",
+          "url": "https://www.youtube.com/watch?v=mcYBYifmX34"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "NOVO MINECRAFT , Minecraft Dungeons - O Início do Gameplay Dublado em PT-BR",
+          "url": "https://www.youtube.com/watch?v=bp1OP_NO7YY"
         }
       ]
     }

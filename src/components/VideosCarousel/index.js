@@ -1,8 +1,8 @@
 import React from 'react';
-import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
+import styled from 'styled-components'
+import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
-import Slider, { SliderItem } from './components/Slider'
-
+import Slider, { SliderItem , SliderPlaylist} from './components/Slider'
 
 function VideosCarousel({
   ignoreFirstVideo,
@@ -27,15 +27,29 @@ function VideosCarousel({
             return null;
           }
 
-          return (
-            <SliderItem key={video.titulo}>
-              <VideoCard
-                videoTitle={video.titulo}
-                videoURL={video.url}
-                categoryColor="#black"
-              />
-            </SliderItem>
-          );
+          if (categoryTitle === "Séries") {
+            console.log(categoryTitle)
+            return (
+                <SliderItem key={video.titulo}>
+                  <VideoCard
+                    videoTitle={video.titulo}
+                    videoURL={video.url}
+                    categoryColor="#black"
+                  />
+                </SliderItem>
+            );
+          }
+          else {
+            return (
+              <SliderItem key={video.titulo}>
+                <VideoCard
+                  videoTitle={video.titulo}
+                  videoURL={video.url}
+                  categoryColor="#black"
+                />
+              </SliderItem>
+            );
+          }
         })}
       </Slider>
     </VideoCardGroupContainer>

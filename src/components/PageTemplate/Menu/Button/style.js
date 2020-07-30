@@ -38,7 +38,6 @@ const Button = styled.button `
     }
     &:hover,
     &:focus {
-        transform: scale(1.1);
         border: 10px solid var(--black);
         background: var(--black);
         color: var(--white)
