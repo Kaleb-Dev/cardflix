@@ -19,3 +19,7 @@ For you to run this project, you need to:
 ## How to use?
 
 To start the React App use the command: `npm run dev`
+
+## I can use?
+
+Yes this project is totally Open Source
