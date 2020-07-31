@@ -47,6 +47,7 @@ ContentAreaContainer.Category = styled.h1`
 
 ContentAreaContainer.Description = styled.p`
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   @media (max-width: 800px) {
     display: none;
@@ -54,6 +55,7 @@ ContentAreaContainer.Description = styled.p`
 `;
 
 ContentAreaContainer.Title = styled.h2`
+  font-family: 'Bebas Neue', cursive;
   font-style: normal;
   font-weight: 300;
   font-size: 40px;

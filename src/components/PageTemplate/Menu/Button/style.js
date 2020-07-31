@@ -1,9 +1,9 @@
 import styled from "styled-components"
 
 const Button = styled.button `
-    font-family: 'Roboto' sans-serif;
-    color: var(--black);
-    background: white;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--white);
+    background: var(--black);
     border: 1px solid var(--white);
     box-sizing: border-box;
     cursor: pointer;
@@ -19,8 +19,8 @@ const Button = styled.button `
   }
   &:hover,
   &:focus {
-    background-color: black;
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     transform: scale(0.95);
   }
   

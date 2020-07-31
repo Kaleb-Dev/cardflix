@@ -1,6 +1,7 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import FormField from '../../FormField';
 import PageTemplate from '../../PageTemplate/index';
@@ -9,6 +10,17 @@ import Button from '../../PageTemplate/Menu/Button/style'
 const H1 = styled.h1`
     font-family: 'Roboto', sans-serif;
 `;
+
+const Home = styled.a`
+  font-size: 12pt;
+  position: relative;
+  display: inline;
+  transition: .2s;
+&:hover,
+&:focus {
+  opacity: 75%;
+}
+`
 
 function CategoriaCadastro() {
   const InitialsValues = {
@@ -43,22 +55,13 @@ function CategoriaCadastro() {
         ...response,
       ])
     })
-    // setTimeout(() =>{
-    //   setCategories([
-    //     ...categories,
-    //     {
-    //       id: 1,
-    //       name: "RedstoneLand",
-    //       description: "Série survival"
-    //     }
-    //   ]);
-    // }, 4* 1000)
   }, [ // 2° Parameter is a array - when will happen
     
   ])
 
   return (
     <PageTemplate>
+      <Link to="/"><Home>Volte para Home</Home></Link>
       <H1>
         Cadastro de Categorias:
         {categoryName.name}
