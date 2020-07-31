@@ -15,7 +15,6 @@ function VideoCard({ videoTitle, videoURL}) {
   const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
   if (videoURL.match(/list/)) {
     const image2 = 'https://i.imgur.com/abA61bk.png'
-    console.log(videoURL)
     return (
       <PlaylistCardContainer
         url={image2}

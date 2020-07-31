@@ -28,7 +28,6 @@ function VideosCarousel({
           }
 
           if (categoryTitle === "Séries") {
-            console.log(categoryTitle)
             return (
                 <SliderItem key={video.titulo}>
                   <VideoCard
