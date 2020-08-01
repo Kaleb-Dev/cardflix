@@ -46,8 +46,10 @@ function CategoriaCadastro() {
   }
 
   useEffect(() => { // causes a side effect
-    console.log('Fala dev') // 1° Parameter - what will happen
-    const data_URL = 'http://localhost:8080/categorias'
+    const data_URL = window.location.hostname.includes('localhost')  // 1° Parameter - what will happen
+    ?'http://localhost:8080/categorias'
+    :'https://cardflix-data.herokuapp.com/categorias'
+
     fetch(data_URL)
     .then(async (serverResponse) => {
       const response = await serverResponse.json()
@@ -61,7 +63,7 @@ function CategoriaCadastro() {
 
   return (
     <PageTemplate>
-      <Link to="/"><Home>Volte para Home</Home></Link>
+      {/* <Link to="/"><Home>Volte para Home</Home></Link> */}
       <H1>
         Cadastro de Categorias:
         {categoryName.name}

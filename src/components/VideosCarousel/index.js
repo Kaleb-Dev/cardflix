@@ -29,7 +29,7 @@ function VideosCarousel({
 
           if (categoryTitle === "Séries") {
             return (
-                <SliderItem key={video.titulo}>
+                <SliderItem key={video.titulo, index}>
                   <VideoCard
                     videoTitle={video.titulo}
                     videoURL={video.url}
@@ -40,7 +40,7 @@ function VideosCarousel({
           }
           else {
             return (
-              <SliderItem key={video.titulo}>
+              <SliderItem key={video.titulo, index}>
                 <VideoCard
                   videoTitle={video.titulo}
                   videoURL={video.url}
