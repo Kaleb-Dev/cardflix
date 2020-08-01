@@ -1,35 +1,40 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import FormField from '../../FormField';
 import PageTemplate from '../../PageTemplate/index';
-import Button from '../../PageTemplate/Menu/Button/style'
+import {Button, Button_delete} from '../../PageTemplate/Menu/Button/style'
+import { H1, Home, Table} from './style'
 
-const H1 = styled.h1`
-    font-family: 'Roboto', sans-serif;
-`;
+function useForm() {
 
-const Home = styled.a`
-  font-size: 12pt;
-  position: relative;
-  display: inline;
-  transition: .2s;
-&:hover,
-&:focus {
-  opacity: 75%;
 }
-`
 
 function CategoriaCadastro() {
   const InitialsValues = {
     name: '',
     description: '',
-    color: '',
   };
-  const [categoryName, setCategoryName] = useState(InitialsValues);
-  const [categories, setCategories] = useState([]);
+
+const [errors, setErrors] = useState({});
+const [categoryName, setCategoryName] = useState(InitialsValues);
+const [categories, setCategories] = useState([]);
+
+function Validate(value) {
+  const errors = {}
+  if (value.name.length == 0) {
+    errors.inputName = '*Esse campo é obrigatório'
+  }
+  if (value.description.length == 0) {
+    errors.inputDescription = '*Esse campo é obrigatório'
+  }
+  return errors
+}
+
+  useEffect(() => {
+    setErrors(Validate(categoryName))
+  }, 2 * 2000 [categoryName])
+
 
   function setValues(keys, values) {
     setCategoryName({
@@ -65,17 +70,22 @@ function CategoriaCadastro() {
     <PageTemplate>
       {/* <Link to="/"><Home>Volte para Home</Home></Link> */}
       <H1>
-        Cadastro de Categorias:
-        {categoryName.name}
+        Nova Categoria&nbsp;<br></br>
       </H1>
       <div className="category-form">
-        <form onSubmit={function handleSubmit(eventInfo) {
+        <form autoComplete='off' onSubmit={function handleSubmit(eventInfo) {
           eventInfo.preventDefault();
-          setCategories([
-            ...categories,
-            categoryName,
-          ]);
+          if (categoryName.name && categoryName.description.length != 0) {
+            setCategories([
+              ...categories,
+              categoryName,
+            ]);
+          }
+         
+
           setCategoryName(InitialsValues);
+            
+          
         }}
         >
 
@@ -86,7 +96,9 @@ function CategoriaCadastro() {
             onChange={handleChange}
             type="input"
             name="name"
+            span_text={errors.inputName}
           />
+
 
           <FormField
             textAreaOrNot="1"
@@ -95,33 +107,34 @@ function CategoriaCadastro() {
             onChange={handleChange}
             type="textarea"
             name="description"
+            span_text={errors.inputDescription}
           />
-
-          {/* <FormField
-            textAreaOrNot="0"
-            label="Cor: "
-            value={categoryName.color}
-            onChange={handleChange}
-            type="color"
-            name="color"
-          /> */}
-
-          <Button> Cadastrar </Button>
+           <Button> Cadastrar </Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <Button_delete onClick={() => setCategoryName(InitialsValues)}> Excluir </Button_delete>
         </form>
 
         {categories.length === 0 && <div>
           Loading...
         </div>}
-        
-        <ul>
+          
           {categories.map((category, index) => {
             return (
-              <li key={category, index}>
-                {`${category.name}`}
-              </li>
+              <Table key={category, index}>
+                <tr>
+                  <th>Nome</th>
+                  <th>Descrição</th>
+                  <th>Editar</th>
+                  <th>Remover</th>
+                </tr>
+                <tr>
+                  <td>{`${category.name}`}</td>
+                  <td>{`${category.description}`}</td>
+                  <td>Editar</td>
+                  <td>Remover</td>
+                </tr>
+              </Table>
             );
           })}
-        </ul>
       </div>
 
     </PageTemplate>

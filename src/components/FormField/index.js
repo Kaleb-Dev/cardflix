@@ -25,7 +25,7 @@ const Input = styled.input`
     border-bottom: 4px solid #53585D;
     
     padding: 16px 16px;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     
     resize: none;
     border-radius: 4px;
@@ -67,7 +67,26 @@ Label.text = styled.span`
     transition: .1s ease-in-out;
 `
 
-function FormField({ value, onChange, id, name, type, label, as}) {
+const Span = styled.span`
+    opacity: 100%;
+    color: var(--primary);
+    position: relative;
+    display: inline-flex;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 10pt;
+    transition: .2s;
+    ${function verification ( {hasValue} ) {
+        return hasValue && css`
+            &{
+                opacity: 0%;
+            }
+        `
+    }}
+`
+
+
+function FormField({ value, onChange, id, name, type, label, as, span_text}) {
     const isTextArea = type === 'textarea'
     const tag = isTextArea ? 'textarea' : 'input'
     const hasValue = Boolean(value.length > 0)
@@ -87,6 +106,7 @@ function FormField({ value, onChange, id, name, type, label, as}) {
                 {label}
                 </Label.text>
             </Label>
+            <Span hasValue={hasValue}>{span_text}</Span>
         </WrapperFieldForm>
         )
     }

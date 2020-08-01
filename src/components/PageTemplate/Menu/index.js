@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from 'react-router-dom'
 import MenuCss from "./menu.css"
-import Button from "./Button/style"
+import {Button} from "./Button/style"
 
 const Logo = "https://i.imgur.com/jeNnMPu.png"
 
